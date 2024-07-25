@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Engineering College | Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-header">Application Form</h1><br>
+        <form method="post" action="submit.php" class="form">
+            <div class="form-group">
+                <label for="registerNumber">Register Number:</label>
+                <input type="number" id="registerNumber" name="registerNumber" placeholder="HSE Register No" required>
+            </div>
+            <div class="form-group">
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" placeholder="Student Name" required>
+            </div>
+            <div class="form-group">
+                <label for="fatherName">Father Name:</label>
+                <input type="text" id="fatherName" name="fatherName" placeholder="Father Name" required>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="\d{10}" placeholder="Phone Number" required>
+            </div>
+            <div class="form-group">
+                <label for="mathsMark">Maths Mark:</label>
+                <input type="number" id="mathsMark" name="mathsMark" placeholder="Maths Mark" required>
+            </div>
+            <div class="form-group">
+                <label for="physicsMark">Physics Mark:</label>
+                <input type="number" id="physicsMark" name="physicsMark" placeholder="Physics Mark" required>
+            </div>
+            <div class="form-group">
+                <label for="chemistryMark">Chemistry Mark:</label>
+                <input type="number" id="chemistryMark" name="chemistryMark" placeholder="Chemistry Mark" required>
+            </div>
+            <div class="form-group">
+                <label for="choice1">Choice 1:</label>
+                <select id="choice1" name="choice1" required>
+                    <option disabled selected>Select Choice 1</option>
+                    <option value="BE01">BE01 - CIVIL</option>
+                    <option value="BE02">BE02 - EEE</option>
+                    <option value="BE03">BE03 - ECE</option>
+                    <option value="BE04">BE04 - CSE</option>
+                    <option value="BE05">BE05 - MECH</option>
+                    <option value="BE06">BE06 - BME</option>
+                    <option value="BT01">BT01 - IT</option>
+                    <option value="BT02">BT02 - AI&DS</option>
+                    <option value="BT03">BT03 - BIOTECH</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="choice2">Choice 2:</label>
+                <select id="choice2" name="choice2" required>
+                    <option disabled selected>Select Choice 2</option>
+                    <option value="BE01">BE01 - CIVIL</option>
+                    <option value="BE02">BE02 - EEE</option>
+                    <option value="BE03">BE03 - ECE</option>
+                    <option value="BE04">BE04 - CSE</option>
+                    <option value="BE05">BE05 - MECH</option>
+                    <option value="BE06">BE06 - BME</option>
+                    <option value="BT01">BT01 - IT</option>
+                    <option value="BT02">BT02 - AI&DS</option>
+                    <option value="BT03">BT03 - BIOTECH</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="choice3">Choice 3:</label>
+                <select id="choice3" name="choice3" required>
+                    <option disabled selected>Select Choice 3</option>
+                    <option value="BE01">BE01 - CIVIL</option>
+                    <option value="BE02">BE02 - EEE</option>
+                    <option value="BE03">BE03 - ECE</option>
+                    <option value="BE04">BE04 - CSE</option>
+                    <option value="BE05">BE05 - MECH</option>
+                    <option value="BE06">BE06 - BME</option>
+                    <option value="BT01">BT01 - IT</option>
+                    <option value="BT02">BT02 - AI&DS</option>
+                    <option value="BT03">BT03 - BIOTECH</option>
+                </select>
+            </div> 
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
